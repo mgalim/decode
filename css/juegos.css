@@ -2,252 +2,258 @@
  * (c) 2018 Decode by Marcelo Galimberti. All rights reserved.
  */
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
-body{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0ecec;
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0ecec;
 }
-h1,h2,h3,h4,h5{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    letter-spacing: 1.5px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 1.5px;
 }
-.section_title{
-    text-align: center;
-    font-size: 40px;
-    color: #8d99ae;
+.section_title {
+  text-align: center;
+  font-size: 40px;
+  color: #8d99ae;
 }
-.container{
-    margin: auto;
-    width: 99%;
+.container {
+  margin: auto;
+  width: 99%;
 }
-.info_col:hover{
-    transition: all 0.5s;
+.info_col:hover {
+  transition: all 0.5s;
 }
 /*-------------------Styles---------------------*/
 
-.img-logo{
-    height: 65px;
-    margin-left: 5px;
-    margin-top: 5px;
+.img-logo {
+  height: 65px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
-.header{
-    height: 70px;
+.header {
+  height: 70px;
 }
-.header .container{
-    display: flex;
-    justify-content: space-between;
+.header .container {
+  display: flex;
+  justify-content: space-between;
 }
-.icon-menu{
-    margin: 10px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    background: rgb(157, 154, 42);
-    color: #fff;
-    text-align: center;
-    line-height: 48px;
-    border-radius: 7px;
-    margin-left: auto;
-    cursor: pointer;
+.icon-menu {
+  margin: 10px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: rgb(157, 154, 42);
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 7px;
+  margin-left: auto;
+  cursor: pointer;
 }
-.nav{
-    position: absolute;
-    top: 75px;
-    left: -100%;
-    width: 100%;
-    transition: all 0.4s;
+.nav {
+  position: absolute;
+  top: 75px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
 }
-.menu{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.menu__link{
-    display: block;
-    padding: 15px;
-    background: rgb(157, 154, 42);
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.4s;
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: rgb(157, 154, 42);
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s;
 }
-.menu__link:hover, .select{
-    background: #fff;
-    color: rgb(157, 154, 42);
+.menu__link:hover,
+.select {
+  background: #fff;
+  color: rgb(157, 154, 42);
 }
-.show{
-    left: 0;
+.show {
+  left: 0;
 }
 /*--------------------Banner--------------------*/
-.banner_img{
-    width: 100%;
-    filter:brightness(0.8);
+.banner_img {
+  width: 100%;
+  filter: brightness(0.8);
 }
-.banner{
-    margin-top: -70px;
-    position: relative;
-    z-index: -1000;
-    margin-bottom: 20px;
+.banner {
+  margin-top: -70px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
 }
-.banner .container{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-65%);
-    width: 90%;
-    color: #fff;
-    text-shadow: 0 3px #333;
-    text-align: center;     
+.banner .container {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-65%);
+  width: 90%;
+  color: #fff;
+  text-shadow: 0 3px #333;
+  text-align: center;
 }
-.banner__txt{
-    display: none;
+.banner__txt {
+  display: none;
 }
 /*-------------------Games---------------------*/
-.info_col{
-    background: rgb(157, 154, 42);
-    color: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    padding: 15px;
+.info_col {
+  background: rgb(157, 154, 42);
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 /*-------------------Footer---------------------*/
 
-.footer{
-    background: #262525;
-    color: #fff;    
-    padding: 10px;
-    text-align: center;
+.footer {
+  background: #262525;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
-.footer .social [class^=icon-]{
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-    font-size: 30px;
-    padding: 10px;
-    background: #fff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 40px;
+.footer .social [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
 }
-.footer .social .icon-facebook:hover{
-    color: #0b66f7;
+.footer .social .icon-facebook:hover {
+  color: #0b66f7;
 }
-.footer .social .icon-twitter:hover{
-    color: #1caac4;
+.footer .social .icon-twitter:hover {
+  color: #1caac4;
 }
-.footer .social .icon-gplus:hover{
-    color: #fa0c1f;
+.footer .social .icon-gplus:hover {
+  color: #fa0c1f;
 }
-.footer .social .icon-vine:hover{
-    color: #16dd3c;
+.footer .social .icon-vine:hover {
+  color: #16dd3c;
 }
-.footer .social [class^=icon-]:hover{
-    transition: all 0.4s;
+.footer .social [class^="icon-"]:hover {
+  transition: all 0.4s;
 }
 /*------------------*Responsive*------------------*/
 
-@media(min-width:480px){
-    .banner__title{
-        font-size: 35px;
-        margin: 5px 0;        
-    }
-    .banner__txt{
-        display: block;
-        font-size: 18px;
-        margin: 7px 0;        
-    }
-    .info{
-        display: flex;
-        justify-content: space-between;
-        margin-top: -65px
-    }
-    .info_col{
-        width: 32%;
-    }
-    .info_title{
-        font-size: 25px;
-        margin: 10px 0;
-    }
-    
-    .footer .social [class^=icon-]{
-        margin: 0 10px;
-    }
+@media (min-width: 480px) {
+  .banner__title {
+    font-size: 35px;
+    margin: 5px 0;
+  }
+  .banner__txt {
+    display: block;
+    font-size: 18px;
+    margin: 7px 0;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+  }
+  .info_col {
+    width: 32%;
+  }
+  .info_title {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  .footer .social [class^="icon-"] {
+    margin: 0 10px;
+  }
 }
-@media(min-width:760px){
-    .header{
+@media (min-width: 760px) {
+  .header {
     height: 90px;
-    }
-    .img-logo{
-        height: 78px;
-        width: 210px;
-    }
-    .banner{
-        margin-top: -90px;
-    }
-    .banner__title{
-        font-size: 50px;
-    }
-    .banner__txt{
-        font-size: 30px;
-    }
-    .nav{
-        top: 95px;
-    }
+  }
+  .img-logo {
+    height: 78px;
+    width: 210px;
+  }
+  .banner {
+    margin-top: -90px;
+  }
+  .banner__title {
+    font-size: 50px;
+  }
+  .banner__txt {
+    font-size: 30px;
+  }
+  .nav {
+    top: 95px;
+  }
 }
-@media(min-width:1024px){    .container{
+@media (min-width: 1024px) {
+  .container {
     width: 1000px;
-    }
-     .nav{
-        position: static;
-         width: auto;
-    }
-    .menu{
-        display: flex;
-    }
-    .icon-menu{
-        display: none;
-    }
-    .menu__link{
-        font-size: 20px;
-        background: none;
-    }
-    .select{
-        background: rgb(157, 154, 42);
-        color: #fff;
-    }
-    .banner__title{
-        font-size: 65px;
-    }
-    .banner__txt{
-        font-size: 40px;
-    }
-    .info_col{
-        padding: 20px;
-    }
-    .info{
-        margin-top: -118px;
-    }
-    .info_title{
-        font-size: 40px;
-        text-align: center;
-    }
+  }
+  .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+  .menu__link {
+    font-size: 20px;
+    background: none;
+  }
+  .select {
+    background: rgb(157, 154, 42);
+    color: #fff;
+  }
+  .banner__title {
+    font-size: 65px;
+  }
+  .banner__txt {
+    font-size: 40px;
+  }
+  .info_col {
+    padding: 20px;
+  }
+  .info {
+    margin-top: -118px;
+  }
+  .info_title {
+    font-size: 40px;
+    text-align: center;
+  }
 }
-@media(min-width:1280px){    
-    .container{
-        width: 1180px;
-    }
-    .banner .container{
-        top: 40%;
-    }
-    .info{
-        margin-top: -270px;
-    }
+@media (min-width: 1280px) {
+  .container {
+    width: 1180px;
+  }
+  .banner .container {
+    top: 40%;
+  }
+  .info {
+    margin-top: -270px;
+  }
 }

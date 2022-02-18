@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Decode</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Diseñado por Marcelo Galimberti, Todo para aprender a codificar, proyecto personal para Rainmeter, Unify">
-    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.png">
-    <link rel="stylesheet" href="css/unify.css">
-    <link rel="stylesheet" href="css/font.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Description"
+      content="Diseñado por Marcelo Galimberti, Todo para aprender a codificar, proyecto personal para Rainmeter, Unify"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.png" />
+    <link rel="stylesheet" href="css/unify.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container">
-            <img src="/images/logo.png" alt="logo" class="img-logo" width="170">
-            <span class="icon-menu" id="btn-menu"></span>
-            <nav class="nav" id="nav">
-                <ul class="menu">
-                    <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="menu__link" href="juegos.html">Juegos</a></li>
-                    <li class="menu__item"><a class="menu__link select" href="unify.html">Unify</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#footer">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <img src="/images/logo.png" alt="logo" class="img-logo" width="170" />
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Inicio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="juegos.html">Juegos</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link select" href="unify.html">Unify</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <div class="banner">
-        <img src="images/unify.jpg" alt="Back" class="banner_img">
-        <div class="container">
-            <h2 class="banner__title">Unify para Rainmeter</h2>
-        </div>
+      <img src="images/unify.jpg" alt="Back" class="banner_img" />
+      <div class="container">
+        <h2 class="banner__title">Unify para Rainmeter</h2>
+        <p class="banner__txt">Skin desarrollada desde cero</p>
+      </div>
     </div>
     <section id="slider" class="container-slider">
-        <ul class="slider-wrapper">
-            <li class="current-slide">
-                <img src="images/unify-1.jpg" alt="Launcher">
-                <div class="caption">
-                    <h2 class="slider-title">Launcher</h2>
-                    <p>Todos tus juegos a un solo click. Se puede usar con mando con Ds4 o X-box. Estar cómodo en tu sofa favorito.</p>
-                </div>
-            </li>
-            <li>
-                <img src="images/unify-2.jpg" alt="Apps">
-                <div class="caption">
-                    <h2 class="slider-title">Apps Unify</h2>
-                    <p>Un lanzador de tus apps mas usadas, con doble función. Click derecho con una acción y click izquierdo con otra.</p>
-                </div>
-            </li>
-            <li>
-                <img src="images/unify-3.jpg" alt="City">
-                <div class="caption">
-                    <h2 class="slider-title">Menu Settings</h2>
-                    <p>Podrás configurar todo el launcher desde el menu principal haciendo click en el icono izquierdo del clima.</p>
-                </div>
-            </li>
-            <li>
-                <img src="images/unify-4.jpg" alt="Gpu">
-                <div class="caption">
-                    <h2 class="slider-title">Humedad</h2>
-                    <p>Visualiza la humedad del clima que hayas elegido en el menu del launcher.</p>
-                </div>
-            </li>
-        </ul>
-        <ul id="control-buttons" class="control-buttons"></ul>
+      <ul class="slider-wrapper">
+        <li class="current-slide">
+          <img src="images/unify-1.jpg" alt="Launcher" />
+          <div class="caption">
+            <h2 class="slider-title">Launcher</h2>
+            <p>
+              Todos tus juegos a un solo click. Se puede usar con mando con Ds4
+              o X-box. Estar cómodo en tu sofa favorito.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="images/unify-2.jpg" alt="Apps" />
+          <div class="caption">
+            <h2 class="slider-title">Apps Unify</h2>
+            <p>
+              Un lanzador de tus apps mas usadas, con doble función. Click
+              derecho con una acción y click izquierdo con otra.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="images/unify-3.jpg" alt="City" />
+          <div class="caption">
+            <h2 class="slider-title">Menu Settings</h2>
+            <p>
+              Podrás configurar todo el launcher desde el menu principal
+              haciendo click en el icono izquierdo del clima.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="images/unify-4.jpg" alt="Gpu" />
+          <div class="caption">
+            <h2 class="slider-title">Humedad</h2>
+            <p>
+              Visualiza la humedad del clima que hayas elegido en el menu del
+              launcher.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <ul id="control-buttons" class="control-buttons"></ul>
     </section>
     <footer class="footer">
-        <div class="social">
-            <a href="#" class="icon-facebook"></a>
-            <a href="#" class="icon-twitter"></a>
-            <a href="#" class="icon-gplus"></a>
-            <a href="#" class="icon-vine"></a>
-        </div>
-        <p class="copy">&copy; Decode by Marcelo Galimberti 2022 - Todos los derechos reservados</p>
+      <div class="social">
+        <a href="#" class="icon-facebook"></a>
+        <a href="#" class="icon-twitter"></a>
+        <a href="#" class="icon-gplus"></a>
+        <a href="#" class="icon-vine"></a>
+      </div>
+      <p class="copy">
+        &copy; Decode by Marcelo Galimberti 2022 - Todos los derechos reservados
+      </p>
     </footer>
     <script src="js/menu.js"></script>
     <script src="js/slider.js"></script>
-</body>
-
+  </body>
 </html>
