@@ -170,18 +170,16 @@ h5 {
   height: 50px;
   line-height: 40px;
 }
-.footer .social .icon-facebook:hover {
+.footer .social .icon-linkedin:hover {
   color: #0b66f7;
 }
-.footer .social .icon-twitter:hover {
-  color: #1caac4;
+.footer .social .icon-github:hover {
+  color: #999b17;
 }
-.footer .social .icon-gplus:hover {
+.footer .social .icon-stack:hover {
   color: #fa0c1f;
 }
-.footer .social .icon-vine:hover {
-  color: #16dd3c;
-}
+
 .footer .social [class^="icon-"]:hover {
   transition: all 0.4s;
 }
