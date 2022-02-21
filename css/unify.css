@@ -232,20 +232,6 @@ ul {
   transition: all 0.4s;
 }
 /*------------------*Responsive*------------------*/
-@media (max-width: 535px) {
-  .slider-wrapper .caption {
-    display: none;
-  }
-  .banner__title {
-    font-size: 35px;
-    margin: 5px 0;
-  }
-  .banner__txt {
-    display: block;
-    font-size: 25px;
-    margin: 7px 0;
-  }
-}
 @media (min-width: 480px) {
   .banner__title {
     font-size: 35px;
